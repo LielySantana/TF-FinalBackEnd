@@ -25,7 +25,7 @@ struct UsersVM{
     func getUserId(userName: String) async ->String?{
         
         let headers = [
-            "X-RapidAPI-Key": "cb42a464cbmsh5d08b3d42135b64p1de875jsn9ef075c0c463",
+            "X-RapidAPI-Key": "e9a9788f52msh4c925f222a786e6p1ec230jsnfad6eceba839",
             "X-RapidAPI-Host": "tokapi-mobile-version.p.rapidapi.com"
         ]
         
@@ -66,7 +66,7 @@ struct UsersVM{
     func searchUsers(userName: String) async ->[SearchUserModel]?{
         
         let headers = [
-            "X-RapidAPI-Key": "cb42a464cbmsh5d08b3d42135b64p1de875jsn9ef075c0c463",
+            "X-RapidAPI-Key": "e9a9788f52msh4c925f222a786e6p1ec230jsnfad6eceba839",
             "X-RapidAPI-Host": "scraptik.p.rapidapi.com"
         ]
         
@@ -118,7 +118,7 @@ struct UsersVM{
     func getTopUn()async ->[topUsers]?{
         
         let headers = [
-            "X-RapidAPI-Key": "cb42a464cbmsh5d08b3d42135b64p1de875jsn9ef075c0c463",
+            "X-RapidAPI-Key": "e9a9788f52msh4c925f222a786e6p1ec230jsnfad6eceba839",
             "X-RapidAPI-Host": "tiktok-tops.p.rapidapi.com"
         ]
         
@@ -158,7 +158,7 @@ struct UsersVM{
     func getUserData(userId: String)async ->UserModel?{
         
         let headers = [
-            "X-RapidAPI-Key": "cb42a464cbmsh5d08b3d42135b64p1de875jsn9ef075c0c463",
+            "X-RapidAPI-Key": "e9a9788f52msh4c925f222a786e6p1ec230jsnfad6eceba839",
             "X-RapidAPI-Host": "tokapi-mobile-version.p.rapidapi.com"
         ]
         
@@ -213,7 +213,7 @@ struct UsersVM{
     func getTopSongs() async ->[TopSongs]?{
         
         let headers = [
-            "X-RapidAPI-Key": "cb42a464cbmsh5d08b3d42135b64p1de875jsn9ef075c0c463",
+            "X-RapidAPI-Key": "e9a9788f52msh4c925f222a786e6p1ec230jsnfad6eceba839",
             "X-RapidAPI-Host": "spotify81.p.rapidapi.com"
         ]
         
@@ -291,7 +291,7 @@ struct UsersVM{
     func getTopLives() async ->[TopLives]?{
         
         let headers = [
-            "X-RapidAPI-Key": "cb42a464cbmsh5d08b3d42135b64p1de875jsn9ef075c0c463",
+            "X-RapidAPI-Key": "e9a9788f52msh4c925f222a786e6p1ec230jsnfad6eceba839",
             "X-RapidAPI-Host": "scraptik.p.rapidapi.com"
         ]
         
